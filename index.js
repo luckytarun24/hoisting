@@ -68,7 +68,7 @@ function hoist_7() {
   //Here we know that if in same scope we define same name variable with let and var then it say Identifier 'a' has already been declared.
   let a = 10;
   // var a = '20'; Identifier 'a' has already been declared
-  console.log('Identifier a has already been declared');
+  console.log('hoist 7 - Identifier a has already been declared');
 }
 hoist_7();
 
